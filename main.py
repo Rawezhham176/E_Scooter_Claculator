@@ -1,8 +1,4 @@
+import time
+import calculation
 
-def print_hi(name):
-    print(f'Hi, {name}')
-
-
-if __name__ == '__main__':
-    print_hi('guys')
-
+print(time.localtime().tm_hour,"\b:" , time.localtime().tm_min , "\b:" , time.localtime().tm_sec)
