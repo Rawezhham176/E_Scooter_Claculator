@@ -4,7 +4,7 @@ import database
 class Calcul:
     def __init__(self):
         self.expression = "For {} Km you have to pay {}€"
-
+#here i will do more
     def input_user(self):
         email = input("please enter your email adress")
         database.select_from_table("scooterUser")
